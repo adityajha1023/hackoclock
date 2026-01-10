@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: #000505;
+    color: white;
+    overflow-x: hidden;
+}
+/* .scroll-bg {
+  width: 100%;
+  background-image: url("./assets/lacasa.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto 0vh;
+} */
+
+@layer components {
+    .perspective{
+        perspective: 2200px;
+    }
+}
