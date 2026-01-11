@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 body{
-    background-color: #000505;
+    background-color: #888888;
     color: white;
     overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
 }
 /* .scroll-bg {
   width: 100%;

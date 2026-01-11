@@ -2,12 +2,12 @@ import React from 'react'
 
 function Navigation() {
     return (
-        <div>
-            <ul className='fixed w-full h-[8vh] py-4 flex justify-center items-center gap-12 font-nunito font-semibold'>
-                <a className='text-gray-400 hover:text-gray-100 hover:scale(105) transition-all duration-300 text-paragraph' href="#">Home</a>
-                <a className='text-gray-400 hover:text-gray-100 hover:scale(105) transition-all duration-300 text-paragraph' href="#">About</a>
-                <a className='text-gray-400 hover:text-gray-100 hover:scale(105) transition-all duration-300 text-paragraph' href="#">Features</a>
-                <a className='text-gray-400 hover:text-gray-100 hover:scale(105) transition-all duration-300 text-paragraph' href="#">Signup</a>
+        <div className='w-full flex justify-center my-4'>
+            <ul className='fixed w-auto bg-[rgba(0,0,0,0.7)] shadow-[8px 8px 16px 0px rgba(0, 0, 0, 0.5)] backdrop-blur-md rounded-full py-2 px-8 flex justify-center items-center gap-12 font-netflix z-50'>
+                <a className='text-text-secondary hover:text-white transition-all duration-300 text-paragraph font-medium' href="#">Home</a>
+                <a className='text-text-secondary hover:text-white transition-all duration-300 text-paragraph font-medium' href="#">About</a>
+                <a className='text-text-secondary hover:text-white transition-all duration-300 text-paragraph font-medium' href="#">Features</a>
+                <a className='text-text-secondary hover:text-white transition-all duration-300 text-paragraph font-medium' href="#">Signup</a>
             </ul>
         </div>
     )

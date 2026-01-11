@@ -6,9 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        'text-secondary' : 'rgba(255,255,255,0.7)',
+      },
       fontFamily:{
         'bebas' : ['Bebas Neue', 'sans-serif'],
-        'nunito' : ['Nunito', 'sans-serif'],
+        'netflix': ['NetflixSans', 'system-ui', 'sans-serif'],
       },
       fontSize:{
 			'sm': '0.833rem',
